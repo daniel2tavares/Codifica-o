@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Bits-04.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+ 
+    
+}
+
+#texto-codi{
+    width: 60%;
+    height: 10%;
+    text-align: center;
+}
+
+.centro{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 500px;
+height: 500px;
+background-color: rgba(45, 196, 25, 0.781);
+color: white;
+border-radius: 10px;
+}
+
+.radioButton{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+textarea{
+    resize: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    width: 60%;
+    height: 10vh;
+    
+}
+
+.oculto{
+    display: none;
+}
+
+#buttoncoringa{
+    background-color: rgb(2, 53, 2);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+#buttoncoringa:hover{
+    padding: 12px 22px;
+}
+
+   
+
+
+
+    

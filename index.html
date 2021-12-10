@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./Cifras.js"></script>
+        <link rel="stylesheet" href="cifra.css">
+        <title>Cifra de Cesar</title>
+    </head>
+    <body>
+
+        <div class="centro">
+
+            <h2>DECODIFIQUE</h2>
+            <input type="text" id='texto-codi' placeholder='Insira aqui o texto a ser codificado'>
+        
+        
+            <select name="codi" id= 'escolher'>
+                <option value="" disabled selected>Escolha a Cifra</option>
+                <option value="cifra">Cifra de Cesar</option>
+                <option value="base">Base 64</option>
+            </select>
+
+        <input class='oculto' type='number' id='passoInput' placeholder="Incremento">
+
+       <div class="radioButton">
+            <input type='radio' id='codificado' name='codificar' value='codificado'>
+            <label for="codificado">Codificar</label>
+            <input type='radio' id='decodificado' name='codificar' value='decodificado'>
+            <label for="decodificado">Decodificar</label>
+        </div>
+        
+        <button id="buttoncoringa">Escolha a Cifra</button>
+
+        <textarea placeholder="Sua mensagem aparecerá aqui" id="resultado" readonly='' disabled=''></textarea>
+
+        
+        </div>
+
+        
+    </body>
+    </html>
